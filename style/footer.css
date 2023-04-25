@@ -1,0 +1,28 @@
+footer{
+    background: #012F10;
+    display:block;
+}
+footer .inside-footer{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:6rem 0px;
+}
+footer .inside-footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+    
+    
+    color: #FFFFFF;
+}
+@media (max-width:500px){
+    footer .inside-footer{
+        width:90%;
+        margin: auto;
+    }
+}

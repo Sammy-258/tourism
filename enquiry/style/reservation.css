@@ -1,0 +1,381 @@
+.first-section{
+    height: 474px;
+    width:100%;
+    background-image: url("../images/2016-09-25\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-main-text{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.star-icon{
+    color: #AFDC2E;
+    font-size: 31px;
+}
+.first-description-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+
+    color: #000000;
+}
+.col-lg-12 img{
+    width:100%;
+    height: 413px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.pause-div{
+    width: 90px;
+    height: 90px;
+    background: rgba(169, 206, 52, 0.27);
+    border-radius: 100px;
+}
+.pause-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide{
+    width:30% !important;
+    height: fit-content !important;
+}
+@media(max-width:850px){
+    .swiper-slide{
+        width:40% !important;
+        height: fit-content !important;
+    }
+}
+@media(max-width:500px){
+    .swiper-slide{
+        width:70% !important;
+        height: fit-content !important;
+    }
+    .description-text{
+        font-size: 19px !important;
+    }
+    .tourist_btn{
+        width: 230px !important;
+        height: 50px !important;
+        font-size: 15px !important;
+    }
+    .more_images{
+        font-size: 25px !important;
+    }
+    .first-main-text{
+        font-size: 25px !important;
+    }
+    .first-description-text{
+        font-size: 19px !important;
+    }
+    .about-main-text{
+        font-size: 20px !important;
+    }
+    .reserve-btn{
+        width: 140px !important;
+        height: 35px !important;
+        background: #AFDC2E;
+        border-radius: 5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px !important;
+        line-height: 35px;
+        color: #222222;
+        border: none;
+    }
+    .about-description-text{
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    .location-main-text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px !important;
+        line-height: 28px;
+        color: #000000;
+    }
+    .more-description{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 35px;
+        color: #000000;
+    }
+    .travelers-text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px !important;
+        line-height: 20px !important;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .travelers-show-more{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 35px;
+        color: rgba(0, 0, 0, 0.39);
+    }
+    
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.more_images{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height, or 100% */
+
+
+    color: #000000;
+}
+.col-lg-12 .form-reservation{
+    width:100%;
+    height: 492px;
+    background: #AFDC2E;
+    border-radius: 10px;
+}
+.form-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.form-control{
+    width:100%;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #E2E1E5;
+    border-radius: 5px;
+    padding: 15px 15px 10px;
+}
+.input-checkbox{
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    width: 18px;
+    height:18px;
+}
+.about-main-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* or 117% */
+
+
+    color: #000000;
+}
+.star-icon-colorless{
+    width: 21.6px;
+    height: 21.6px;
+    left: 958px;
+    top: 669px;
+
+    border: 1px solid #000000;
+    color: transparent;
+    box-sizing: border-box;
+}
+.reserve-btn{
+    width: 170px;
+    height: 42px;
+    background: #AFDC2E;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #222222;
+    border: none;
+}
+.about-description-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.location-main-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.col-lg-8 .reservation_image{
+    width:100%;
+    height: 382px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.col-lg-12 .map{
+    width:100%;
+    height: 208px;
+}
+.col-lg-12 .map img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.col-lg-4 .display_other_images{
+    width:100%;
+    height: 183px;
+    border-radius: 10px;
+    object-fit:cover ;
+}
+.more-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.further-details{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #B6B6B6;
+}
+.further-details-main-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #000000;
+}
+.further-details-description-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+
+    color: #000000;
+}
+.further-details-btn{
+    width:100%;
+    height: 42px;
+    background: #AFDC2E;
+    border-radius: 5px;  
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
+
+
+    color: #222222;
+}
+.travelers-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.travelers-show-more{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+
+
+.third-heading-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* or 100% */
+
+
+    color: #222222;
+}
+.third-description-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 146% */
+
+
+    color: #222222;
+}
+.reservation-price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #000000;
+    
+}
+.tourist-name{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 45px;
+    /* or 205% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}

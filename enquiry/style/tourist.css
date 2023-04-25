@@ -1,0 +1,134 @@
+.first-section{
+    height: 474px;
+    width:100%;
+    background-image: url("../images/2016-09-25\ 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-main-text{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.star-icon{
+    color: #AFDC2E;
+    font-size: 31px;
+}
+.first-description-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+
+    color: #000000;
+}
+.col-lg-12 img{
+    width:100%;
+    height: 413px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.pause-div{
+    width: 90px;
+    height: 90px;
+    background: rgba(169, 206, 52, 0.27);
+    border-radius: 100px;
+}
+.pause-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide{
+    width:30% !important;
+    height: 318px !important;
+}
+@media(max-width:850px){
+    .swiper-slide{
+        width:40% !important;
+        height: 318px !important;
+    }
+}
+@media(max-width:500px){
+    .swiper-slide{
+        width:70% !important;
+        height: 280px !important;
+    }
+    .description-text{
+        font-size: 19px !important;
+    }
+    .tourist_btn{
+        width: 230px !important;
+        height: 50px !important;
+        font-size: 15px !important;
+    }
+    .more_images{
+        font-size: 25px !important;
+    }
+    .first-main-text{
+        font-size: 25px !important;
+    }
+    .first-description-text{
+        font-size: 19px !important;
+    }
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.more_images{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height, or 100% */
+
+
+    color: #000000;
+}
+.description-text{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+
+    color: #000000;
+}
+.tourist_btn{
+    width: 396px;
+    height: 64px;
+    background: #AFDC2E;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #222222;
+    border: 0px;
+
+}

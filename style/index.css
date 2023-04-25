@@ -1,0 +1,601 @@
+.nav-ul{
+    display:flex;
+}
+@media(max-width:500px){
+    .nav-ul{
+        display:none;
+    }
+}
+.nav-ul li{
+    list-style-type: none;
+    padding:0px 1rem;
+}
+.nav-ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+}
+nav{
+    padding:10px 5rem;
+}
+
+.first-section{
+    width: 100%;
+    height:fit-content;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Aduadu_from_Afadja.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:1;
+    padding-bottom: 8rem;
+}
+.first-section::after{
+    width: 100%;
+    height:100%;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: linear-gradient(to top, rgba(7, 46, 20, 0.925),  rgba(16, 80, 38, 0.925), rgba(16, 80, 38, 0.726),rgba(16, 80, 38, 0.336), rgba(29, 105, 156, 0.11),rgba(25, 117, 179, 0.171),  rgba(151, 193, 221, 0.253),  rgba(152, 213, 253, 0.363), rgba(152, 213, 253, 0.342));
+    z-index:-1;
+   
+}
+.first-section::before{
+    width: 100%;
+    height:120vh;
+    content:"";
+    position:absolute;
+    top:70%;
+    left:0;
+    background-image: linear-gradient(to top,rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979),rgba(7, 46, 20, 0.979), rgba(7, 46, 20, 0.993),rgba(7, 46, 20, 0.993),  rgba(7, 46, 20, 0.925), rgba(7, 46, 20, 0.301), rgba(7, 46, 20, 0.144));
+    z-index:-1;
+   
+}
+@media(max-width:500px){
+    .first-section::before{
+      
+        height:190vh !important;
+      
+    }
+}
+.lines-of-design{
+    width:40px;
+    height:350px;
+    /* background-color: brown; */
+    margin-left:2rem;
+    position:relative;
+    
+}
+.everything{
+    position: absolute;
+    top:8rem;
+
+}
+.lines-of-design .divison-line{
+    width:2px;
+    height:87.5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    position:relative;
+    top:7%;
+   
+}
+.lines-of-design .circle-division{
+    width:40px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    top:0;
+}
+.circle-division-itself-first{
+    width:25px;
+    height:25px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    border: 8px solid rgba(255, 255, 255, 0.329);
+}
+.circle-division-itself{
+    width:20px;
+    height:20px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    
+}
+.second-circle-division{
+    left:100%;
+    width:fit-content !important;
+    font-family: Poppins;
+    font-style: Medium;
+    /* font-size: 12px; */
+    color:rgba(255, 255, 255, 1);
+}
+.heading-text{
+    font-size:74px;
+    font-weight: bold;
+    line-height: 45px;
+    color:rgba(255, 255, 255, 1);
+}
+@media(max-width:500px){
+    .heading-text{
+        font-size:44px !important;
+        font-weight: bold;
+        line-height: 45px;
+        color:rgba(255, 255, 255, 1);
+    }
+    .text-welcoming-region{
+        margin: 9rem 0rem 0px 5rem !important;
+    }
+    .description-text{
+        color:rgba(255, 255, 255, 1);
+        font-weight: normal;
+        font-size:18px !important;
+        width:fit-content !important;
+    }
+}
+.text-welcoming-region{
+    margin: 9rem 0rem 0px 8rem;
+}
+.description-text{
+    color:rgba(255, 255, 255, 1);
+    font-weight: normal;
+    font-size:18px;
+    width:513.41px;
+}
+.card-housing{
+    width:85%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:9rem;
+}
+.card{
+    width: 330.28px;
+    height: 200px !important;
+    background-color:rgba(51, 152, 85, 0.5) !important;
+    border-radius: 10px !important;
+}
+
+@media (max-width:900px){
+    .card-housing{
+        width:95% !important;
+    }
+}
+
+.card-main-text{
+    font-size:30px;
+    font-weight: 600;
+    line-height: 35px;
+    color:rgba(255, 255, 255, 1);
+    
+}
+
+
+/* second-section */
+.second-section{
+    width:100%;
+    height: 90vh;
+    position: relative;
+    z-index:10;
+}
+.second-section .inside-second-section{
+    width:85%;
+    height: 100%;
+    margin: auto;
+    z-index:10;
+}
+@media(max-width:850px){
+    .second-section .inside-second-section{
+        width:95% !important;
+        height: 100%;
+        margin: auto;
+        z-index:10;
+    }
+}
+@media(max-width:500px){
+    .inside-second-section-first-text{
+        font-family: 'Cinzel Decorative';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px !important;
+        line-height: 35px;
+        text-align: center;   
+        color: #FFFFFF;
+    }
+    .second-section{
+        width:100%;
+        height: 80vh;
+        position: relative;
+        z-index:10;
+        top:-20%;
+    }
+    .inside-second-section-description-text{
+        width: fit-content !important;
+        height: fit-content !important;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 22px !important;
+      
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+    .vedio-text{
+        width:fit-content !important;
+        font-size: 18px !important;
+        color:white;
+        margin: 10px auto;
+        text-align:end;
+    }
+    .vedio-section{
+        margin-top: 3rem !important;
+    
+    }
+}
+
+.inside-second-section-first-text{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    /* or 129% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.inside-second-section-description-text{
+    width: 736px;
+    height: 112px;
+    left: 342px;
+    top: 1126px;
+    margin:auto;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    /* or 146% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.vedio-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.vedio-tag{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-color:black;
+
+}
+.vedio-text{
+    width:506px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size:18px;
+    color:white;
+    margin: 10px auto;
+    text-align:end;
+}
+.vedio-btn{
+    width: 335px;
+    height: 64px;
+    background: #AFDC2E;
+    border-radius: 5px;
+    color:black;
+    border:0px;
+}
+
+
+
+/* third-section */
+.third-section{
+    width:100%;
+    height:fit-content !important;
+    margin-top: 4rem;
+    padding:3rem 0px 8rem 0px !important;
+}
+.third-section .royal-family{
+    width:80%;
+    height:100%;
+    margin: auto;
+}
+@media(max-width:850px){
+    .third-section .royal-family{
+        width:95% !important;
+        height:100%;
+        margin: auto;
+    }
+}
+.royal-family-main-text{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+}
+@media(max-width:500px){
+    .third-section{
+        width:100%;
+        height:fit-content !important;
+        margin-top: 22rem !important;
+       
+    }
+    .royal-family-main-text{
+        font-family: 'Cinzel Decorative';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #222222;
+        text-transform: uppercase;
+    }
+    .royal-fimaly-col-text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+}
+
+.royal-fimaly-col-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+.royal-btn{
+    width: 335px;
+    height: 64px;
+    background: #AFDC2E;
+    border-radius: 5px;
+    border:0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #222222;
+}
+
+
+
+/* fourth-section */
+.fourth-section{
+    display:block;
+    width:100%;
+    background: #339855;
+    height: 359px;
+}
+.fourth-section .testimonial-section{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.testimonial-section p{
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+}
+.card-for-testimonial{
+    width: 690px;
+    height: fit-content;
+    background: #AFDC2E;
+    border-radius: 10px;
+    position: relative;
+    top:70px;
+}
+.card-for-testimonial .d-block{
+    width: 500px;
+   
+}
+.card-for-testimonial .d-block p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+   color:black;
+}
+@media(max-width:850px){
+    .fourth-section .testimonial-section{
+        width:95%;
+        display: block;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .card-for-testimonial{
+        width: 690px;
+        height: fit-content;
+        background: #AFDC2E;
+        border-radius: 10px;
+        position: relative;
+        top:20px;
+        margin: auto;
+    }
+    
+}
+@media(max-width:500px){
+    .fourth-section{
+        display:block;
+        width:100%;
+        background: #339855;
+        height: 259px;
+    }
+    .fourth-section .testimonial-section{
+        width:95%;
+        display: block;
+        justify-content: space-between;
+        margin:auto;
+    }
+    .fourth-section .testimonial-section .card-for-testimonial{
+        width: 100%;
+        height: fit-content;
+        background: #AFDC2E;
+        border-radius: 10px;
+        position: relative;
+        top:10px;
+        margin: auto ;
+    }
+    .testimonial-image{
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 100px;
+        background: #D9D9D9;
+    }
+    .testmoinal-heading{
+        font-size:25px !important;
+    }
+}
+.fourth-section .testimonial-section .card-for-testimonial{
+   
+    height: fit-content;
+    
+}
+.fourth-section .testimonial-section .card-for-testimonial .testimonial-image{
+    width: 15%;
+    
+}
+.fourth-section .testimonial-section .card-for-testimonial .d-block{
+    width: 80%;
+    
+}
+.testimonial-image{
+    width: 83px;
+    height: 83px;
+    border-radius: 100px;
+    background: #D9D9D9;
+}
+.testmoinal-heading{
+    font-size:28px !important;
+}
+
+
+
+@media(max-width:500px){
+    .fifth-section{
+        background-color: #00551D;
+        display:block;
+        margin-top:13rem !important;
+        width: 100%;
+    }
+}
+.fifth-section{
+    background-color: #00551D;
+    display:block;
+    margin-top:6rem;
+    width: 100%;
+}
+.location{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.location-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color:white;
+}
+.col-12 input{
+    width: 100%;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #E2E1E5;
+border-radius: 5px;
+}
+.col-12 label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.col-12 textarea{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #E2E1E5;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width:100%;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.submit-form-btn{
+    width: 335px;
+    height: 64px;
+    left: 610px;
+    top: 3801px;
+
+    background: #AFDC2E;
+    border-radius: 5px;
+    border:0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    /* identical to box height, or 175% */
+
+
+    color: #222222;
+}
+
+
+
+footer{
+    background: #012F10;
+    display:block;
+}
+footer .inside-footer{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:6rem 0px;
+}
+footer .inside-footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+    
+    
+    color: #FFFFFF;
+}
+@media (max-width:500px){
+    footer .inside-footer{
+        width:90%;
+        margin: auto;
+    }
+}
